@@ -1,4 +1,4 @@
-# **<center>CV</center>**
+# **CV**
 
 1. My full name is Irina Ostrometskaya
 2. Contacts: 
