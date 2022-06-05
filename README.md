@@ -1,1 +1,1 @@
-https://OstrometskayaIV.github.io/rsschool-cv/
+https://OstrometskayaIV.github.io/rsschool-cv/cv
