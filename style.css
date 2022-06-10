@@ -1,5 +1,5 @@
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'EB Garamond', serif;
     color: rgb(17, 26, 26);
     font-size: 18px;
     min-height: 100vh;
@@ -65,7 +65,7 @@ li.nav-list {
 }
 
 code {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 
 li.contacts-list {
