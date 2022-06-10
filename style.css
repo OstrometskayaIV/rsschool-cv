@@ -3,6 +3,7 @@ body {
     color: rgb(17, 26, 26);
     font-size: 18px;
     min-height: 100vh;
+    line-height: 25px;
     background-image: url(./img/beautiful-verdigris-oxidized-copper-background_24837-103.jpeg);
 }
 
@@ -12,6 +13,19 @@ body {
     padding: 0;
     max-width: 1440px;
   }
+
+.header-title {
+    margin: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+h1 > span {
+    color:rgb(219, 139, 11);
+    text-shadow: 2px 2px 1px black;
+}
 
 .header-inner {
     max-width: 1440px;
@@ -36,6 +50,10 @@ body {
     justify-content: space-evenly;
 }
 
+img {
+    border-radius: 5%;
+}
+
 ul.nav-list {
     display: flex;
     justify-content: center;
@@ -45,13 +63,26 @@ ul.nav-list {
     max-width: 1440px;
     min-width: 100vh;
     flex-direction: column;
-    
+}
+
+h3 {
+    font-size: 25px;
 }
 
 li.nav-list {
     display: inline-flex;
-    padding: 20px 30px;
-    list-style: none;
+    padding: 20px 20px;
+}
+
+li.nav-list a {
+    text-decoration: none;
+    color:rgb(219, 139, 11);
+    text-shadow: 2px 2px 1px black;
+}
+
+li.nav-list a:hover {
+    color:rgb(17, 26, 26);
+    text-shadow: 2px 2px 1px rgb(219, 139, 11);
 }
 
 .main {
@@ -77,5 +108,5 @@ li.skills-list {
 }
 
 footer {
-    background-color: aqua;
+    
 }
