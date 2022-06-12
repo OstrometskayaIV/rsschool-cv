@@ -140,8 +140,20 @@ h6 {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    section {
-      width: 100%;
-    }
-  }
+a.courses-link {
+    text-decoration: none;
+    color:rgb(17, 26, 26);
+}
+
+a.courses-link:hover {
+    color:rgb(219, 139, 11);
+}
+
+a.survey-form {
+    text-decoration: none;
+    color:rgb(17, 26, 26);
+}
+
+a.survey-form:hover {
+    color:rgb(219, 139, 11);
+}
