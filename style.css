@@ -42,7 +42,6 @@ h1 > span {
     flex: 1;
     justify-content: center;
     text-align: center;
-    
 }
 
 .header-name {
@@ -115,6 +114,7 @@ hr {
 
 section {
     background-color: rgba(208, 208, 158, 0.4);
+    border-radius: 2%;
 }
 
 ul.footer-links {
