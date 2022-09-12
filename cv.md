@@ -1,5 +1,4 @@
 # **CV**
-
 1. My full name is Irina Ostrometskaya
 2. Contacts: 
     + i.ostrometskaya@gmail.com
@@ -11,7 +10,7 @@
     + HTML/CSS
     + JavaScript
 5. Code example:
- ``` 
+ ```
  function checkObj(obj, checkProp) {
   if (obj.hasOwnProperty(checkProp)) {
     return obj[checkProp];
@@ -22,7 +21,7 @@
  ```
 6. + Momentum (RS-school Stage 0)
 https://rolling-scopes-school.github.io/ostrometskayaiv-JSFEPRESCHOOL2022Q2/momentum/
-   + Travel (RS-school Stage 0)
+  + Travel (RS-school Stage 0)
 https://rolling-scopes-school.github.io/ostrometskayaiv-JSFEPRESCHOOL2022Q2/travel/
 7. In 2009 after graduation from school went to Malta and started English courses till 2010. Graduated from Minsk State Linguistic University in 2015. After I've been working as a translator for half a year and in tourism for 3 years till 2017. Then I have worked as a flight attendant in Belavia - Belarusian Airlines for four and a half years. Finished freeCodeCamp HTML/CSS courses and RS-school courses Stage 0. Now I am doing RS-school courses Stage 1 and freeCodeCamp courses JavaScript.
-8. Upper-Intermediate (learning English since I was 5 years old, lived in Maltese family for 9 months, ended English courses in Malta 2009-2010, visit "English Speaking Club in Batumi").
+8. Upper-Intermediate (learning English since I was 5 years old, lived in Maltese family for 9 months, ended English courses in Malta 2009-2010, visit English Speaking Club in Batumi).
