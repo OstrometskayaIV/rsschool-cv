@@ -1,0 +1,185 @@
+body {
+    font-family: 'EB Garamond', serif;
+    color: rgb(17, 26, 26);
+    font-size: 20px;
+    min-height: 100vh;
+    line-height: 25px;
+    background-image: url(./img/beautiful-verdigris-oxidized-copper-background_24837-103.jpeg);
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+  }
+
+.container {
+    max-width: 2600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.header-title {
+    margin: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h1 > span {
+    color:rgb(219, 139, 11);
+    text-shadow: 2px 2px 1px black;
+}
+
+.header-inner {
+    max-width: 1440px;
+    width: 900px;
+    min-height: 350px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 5%;
+}
+
+ul.nav-list {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    width: 900px;
+}
+
+.nav {
+    max-width: 1440px;
+    width: 900px;
+    min-width: 600px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+li.nav-list {
+    display: inline-flex;
+    padding: 10px 5px;
+    font-size: 17px;
+}
+
+li.nav-list a {
+    text-decoration: none;
+    color:rgb(219, 139, 11);
+    text-shadow: 2px 2px 1px black;
+}
+
+li.nav-list a:hover {
+    color:rgb(17, 26, 26);
+    text-shadow: 2px 2px 1px rgb(219, 139, 11);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto auto;
+    gap: 40px 60px;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-self: center;
+}
+
+code {
+    font-family: 'EB Garamond', serif;
+}
+
+li.contacts-list {
+    list-style: none;
+}
+
+li.skills-list {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid rgb(17, 26, 26);
+}
+
+section {
+    background-color: rgba(208, 208, 158, 0.4);
+    border-radius: 2%;
+}
+
+ul.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-item-rs {
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.footer-link-item-gh {
+    width: 50px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+h6 {
+    display: block;
+    text-align: center;
+}
+
+a.courses-link {
+    text-decoration: none;
+    color:rgb(17, 26, 26);
+}
+
+a.courses-link:hover {
+    color:rgb(219, 139, 11);
+}
+
+a.survey-form {
+    text-decoration: none;
+    color:rgb(17, 26, 26);
+}
+
+a.survey-form:hover {
+    color:rgb(219, 139, 11);
+}
