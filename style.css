@@ -15,6 +15,21 @@ body {
     max-width: 1440px;
   }
 
+.container {
+    max-width: 2600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
 .header-title {
     margin: 20px;
     font-size: 40px;
@@ -31,10 +46,12 @@ h1 > span {
 
 .header-inner {
     max-width: 1440px;
+    width: 900px;
     min-height: 350px;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
 }
 
 .header-img {
@@ -58,12 +75,20 @@ img {
 ul.nav-list {
     display: flex;
     justify-content: center;
+    max-width: 1400px;
+    width: 900px;
 }
 
 .nav {
     max-width: 1440px;
-    min-width: 100vh;
-    flex-direction: column;
+    width: 900px;
+    min-width: 600px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 h3 {
@@ -72,7 +97,8 @@ h3 {
 
 li.nav-list {
     display: inline-flex;
-    padding: 20px 20px;
+    padding: 10px 5px;
+    font-size: 17px;
 }
 
 li.nav-list a {
@@ -90,7 +116,7 @@ li.nav-list a:hover {
     display: grid;
     grid-template-columns: 350px 350px;
     grid-template-rows: auto auto;
-    gap: 40px 10px;
+    gap: 40px 60px;
     justify-content: space-evenly;
     align-content: space-between;
     align-self: center;
